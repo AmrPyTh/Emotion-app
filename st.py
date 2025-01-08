@@ -6,7 +6,7 @@ import cv2
 from PIL import Image
 
 # Load the model
-model1 = load_model(r'C:\Users\amr22\OneDrive\Documents\Data-Set\model-up.keras')
+model1 = load_model('model-up.keras')
 
 # Define class labels
 labels = ['Angry', 'Fear', 'Happy', 'Neutral', 'Sad', 'Surprise']
